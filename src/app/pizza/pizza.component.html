@@ -1,0 +1,21 @@
+<div class="container"
+     fxLayout="column"
+     fxLayoutGap="10px">
+   <div fxFlex>
+  <div>
+      <h3>Menu</h3>
+      <hr>
+    </div>
+  </div>
+  <mat-list fxFlex>
+    <mat-list-item *ngFor="let pizza of pizzas">
+      <img matListAvatar src={{pizza.image}} alt={{pizza.name}}>
+      <h1 matLine> {{pizza.name}}<!--<span matBadge="{{pizza.discount}}" matBadgeOverlap="false"></span> --></h1>
+      <p matLine>
+        <span> {{pizza.description}} </span>
+      </p>
+      <button mat-button (click)=add_to_cart(pizza)> <!--<i class="material-icons">add</i>--> Add to Cart</button>
+    </mat-list-item>
+  </mat-list>
+
+</div>
