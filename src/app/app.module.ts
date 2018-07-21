@@ -8,10 +8,14 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { PizzaComponent } from './pizza/pizza.component';
 import { CartComponent } from './cart/cart.component';
+
+import { PizzaService } from './services/pizza.service';
+import { OrdersService } from './services/orders.service';
 
 @NgModule({
   declarations: [
@@ -28,9 +32,13 @@ import { CartComponent } from './cart/cart.component';
     MatButtonModule,
     MatChipsModule,
     MatBadgeModule,
-    MatSidenavModule
+    MatSidenavModule,
+    HttpClientModule 
   ],
-  providers: [],
+  providers: [ 
+    PizzaService,
+    OrdersService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

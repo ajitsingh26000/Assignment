@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Pizza } from '../shared/pizza';
+import { OrdersService } from '../services/orders.service';
 
 @Component({
   selector: 'app-cart',
@@ -8,9 +9,13 @@ import { Pizza } from '../shared/pizza';
 })
 export class CartComponent implements OnInit {
   @Input() pizzas: Pizza[]
-  constructor() { }
+  constructor(private orderService: OrdersService) { }
 
   ngOnInit() {
+  }
+
+  confirmOrder(){
+    this.orderService.order(this.pizzas).subscribe();
   }
 
 }
