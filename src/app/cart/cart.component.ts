@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Pizza } from '../shared/pizza';
 import { OrdersService } from '../services/orders.service';
+import {MatSnackBar} from '@angular/material';
 
 @Component({
   selector: 'app-cart',
@@ -9,13 +10,16 @@ import { OrdersService } from '../services/orders.service';
 })
 export class CartComponent implements OnInit {
   @Input() pizzas: Pizza[]
-  constructor(private orderService: OrdersService) { }
+  constructor(private orderService: OrdersService,private snackBar: MatSnackBar) { }
 
   ngOnInit() {
   }
 
   confirmOrder(){
     this.orderService.order(this.pizzas).subscribe();
+    this.snackBar.open("Your Order will arrive in 30 minutes", "", {
+      duration: 2000,
+    });
   }
 
 }

@@ -78,6 +78,82 @@
         }
       ],
       "id": 1
+    },
+    {
+      "K1532292362057": [
+        {
+          "id": 0,
+          "name": "Uthappizza",
+          "image": "assets/images/uthappizza.png",
+          "category": "Veg",
+          "price": "4.99",
+          "description": "Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
+        }
+      ],
+      "id": 2
+    },
+    {
+      "U1532292366640": [
+        {
+          "id": 0,
+          "name": "Uthappizza",
+          "image": "assets/images/uthappizza.png",
+          "category": "Veg",
+          "price": "4.99",
+          "description": "Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "J1532292400856": [
+        {
+          "id": 1,
+          "name": "Zucchipakoda",
+          "image": "assets/images/zucchipakoda.png",
+          "category": "Non-veg",
+          "price": "1.99",
+          "description": "Tomato, sauce, Olives,Lamb Meat"
+        },
+        {
+          "id": 1,
+          "name": "Zucchipakoda",
+          "image": "assets/images/zucchipakoda.png",
+          "category": "Non-veg",
+          "price": "1.99",
+          "description": "Tomato, sauce, Olives,Lamb Meat"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "X1532292456267": [
+        {
+          "id": 1,
+          "name": "Zucchipakoda",
+          "image": "assets/images/zucchipakoda.png",
+          "category": "Non-veg",
+          "price": "1.99",
+          "description": "Tomato, sauce, Olives,Lamb Meat"
+        },
+        {
+          "id": 1,
+          "name": "Zucchipakoda",
+          "image": "assets/images/zucchipakoda.png",
+          "category": "Non-veg",
+          "price": "1.99",
+          "description": "Tomato, sauce, Olives,Lamb Meat"
+        },
+        {
+          "id": 1,
+          "name": "Zucchipakoda",
+          "image": "assets/images/zucchipakoda.png",
+          "category": "Non-veg",
+          "price": "1.99",
+          "description": "Tomato, sauce, Olives,Lamb Meat"
+        }
+      ],
+      "id": 5
     }
   ]
 }

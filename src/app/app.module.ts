@@ -9,6 +9,7 @@ import {MatBadgeModule} from '@angular/material/badge';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 import { AppComponent } from './app.component';
 import { PizzaComponent } from './pizza/pizza.component';
@@ -33,7 +34,8 @@ import { OrdersService } from './services/orders.service';
     MatChipsModule,
     MatBadgeModule,
     MatSidenavModule,
-    HttpClientModule 
+    HttpClientModule,
+    MatSnackBarModule
   ],
   providers: [ 
     PizzaService,
