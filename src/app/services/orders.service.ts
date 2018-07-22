@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { baseURL } from '../shared/baseurl';
-import { Pizza } from '../shared/pizza';
 
 @Injectable({
   providedIn: 'root'
@@ -16,7 +15,6 @@ export class OrdersService {
     var uniqid = randLetter + Date.now();
     var orderValue = {};
     orderValue[uniqid] = order;
-    debugger
     return this.http.post(baseURL +'orders',orderValue);
   }
 }

@@ -18,5 +18,6 @@ export class PizzaComponent implements OnInit {
   }
   add_to_cart(selected){
     this.cart.push(selected);
+    
   }
 }

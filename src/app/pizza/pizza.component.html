@@ -10,12 +10,16 @@
   <mat-list fxFlex>
     <mat-list-item *ngFor="let pizza of pizzas">
       <img matListAvatar src={{pizza.image}} alt={{pizza.name}}>
-      <h1 matLine> {{pizza.name}}<!--<span matBadge="{{pizza.discount}}" matBadgeOverlap="false"></span> --></h1>
+      <h1 matLine> <Strong>{{pizza.name}}</Strong> <span class="space">₹{{pizza.price}}</span>
+        <span class="space">{{pizza.category}}</span>
+      </h1>
       <p matLine>
-        <span> {{pizza.description}} </span>
+        <span> <strong>Ingredients:</strong>{{pizza.description}} </span>
       </p>
-      <button mat-button (click)=add_to_cart(pizza)> <!--<i class="material-icons">add</i>--> Add to Cart</button>
+      <button mat-button (click)=add_to_cart(pizza)>Add to Cart</button>
+      
     </mat-list-item>
+    <hr>
   </mat-list>
 
 </div>

@@ -4,65 +4,77 @@
       "id": 0,
       "name": "Uthappizza",
       "image": "assets/images/uthappizza.png",
-      "category": "mains",
-      "label": "Hot",
+      "category": "Veg",
       "price": "4.99",
-      "featured": "true",
-      "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
+      "description": "Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
     },
     {
       "id": 1,
       "name": "Zucchipakoda",
       "image": "assets/images/zucchipakoda.png",
-      "category": "appetizer",
-      "label": "",
+      "category": "Non-veg",
       "price": "1.99",
-      "featured": "false",
-      "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce"
+      "description": "Tomato, sauce, Olives,Lamb Meat"
     },
     {
       "id": 2,
       "name": "Vadonut",
       "image": "assets/images/vadonut.png",
-      "category": "appetizer",
-      "label": "New",
+      "category": "Veg",
       "price": "1.99",
-      "featured": "false",
-      "description": "A quintessential ConFusion experience, is it a vada or is it a donut?"
+      "description": "Sweet and salty ,chillies Pineapple"
     },
     {
       "id": 3,
-      "name": "ElaiCheese Cake",
+      "name": "ElCheese Cake",
       "image": "assets/images/elaicheesecake.png",
-      "category": "dessert",
-      "label": "",
+      "category": "Veg",
       "price": "2.99",
-      "featured": "false",
-      "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms"
+      "description": "Modrella, Cream Cheese"
+    },
+    {
+      "id": 4,
+      "name": "Green Wav",
+      "image": "assets/images/vadonut.png",
+      "category": "Veg",
+      "price": "1.99",
+      "description": "Sweet and salty ,chillies, Pineapple, Cream Cheese"
+    },
+    {
+      "id": 5,
+      "name": "Eeseass Cake",
+      "image": "assets/images/elaicheesecake.png",
+      "category": "Veg",
+      "price": "2.99",
+      "description": "Modrella, Cream Cheese, 5 kinds of pepper for mouth watering taste"
+    },
+    {
+      "id": 6,
+      "name": "Meso Wav",
+      "image": "assets/images/vadonut.png",
+      "category": "Veg",
+      "price": "1.99",
+      "description": "Sweet and salty ,chillies, Pineapple, Cream Cheese, Alepino,Green Sauce"
+    },
+    {
+      "id": 7,
+      "name": "Onion Cake",
+      "image": "assets/images/elaicheesecake.png",
+      "category": "Veg",
+      "price": "2.99",
+      "description": "Sweet taste of paneer and onion"
     }
   ],
   "orders": [
     {
-      "S1532216245457": [
+      "N1532220134219": [
         {
           "id": 0,
           "name": "Uthappizza",
           "image": "assets/images/uthappizza.png",
-          "category": "mains",
-          "label": "Hot",
+          "category": "Veg",
           "price": "4.99",
-          "featured": "true",
-          "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
-        },
-        {
-          "id": 1,
-          "name": "Zucchipakoda",
-          "image": "assets/images/zucchipakoda.png",
-          "category": "appetizer",
-          "label": "",
-          "price": "1.99",
-          "featured": "false",
-          "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce"
+          "description": "Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
         }
       ],
       "id": 1
